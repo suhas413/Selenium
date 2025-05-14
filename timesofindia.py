@@ -12,7 +12,7 @@ time.sleep(3)
 
 try:
     print("\nFetching top headlines")
-    time.sleep(2)  # Wait for elements to load
+    time.sleep(2) 
     headlines = driver.find_elements(By.CSS_SELECTOR, ".w_tle")[:5]
 
     print("\nTop 5 Headlines:")
